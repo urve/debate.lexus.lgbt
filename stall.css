@@ -8,11 +8,6 @@
   font-display: block;
 }
 @font-face {
-  font-family: "Garamond";
-  src: url(./gar.woff2);
-  font-display: block;
-}
-@font-face {
   font-family: "Sourcecode";
   src: url(./scp.woff2);
   font-display: block;
