@@ -1,5 +1,6 @@
 :root {
   --bgc: #d0e2ff;
+  --victoria: whitesmoke;
 }
 @font-face {
   font-family: "Quicksand";
@@ -170,7 +171,7 @@ sux {
 .mono {
   font-family: "Sourcecode", monospace;
 }
-#toc_container {
+#grass {
   border: 1px solid #aaa;
   display: table;
   font-size: 95%;
@@ -180,14 +181,15 @@ sux {
   font-family: "Sourcecode", monospace;
   font-size: 20px;
 }
-.toc_title {
+.lilyofthevalley {
   font-family: "Sourcecode", monospace;
   text-align: center;
   font-size: 20px;
 }
-#toc_container li,
-#toc_container ul,
-#toc_container ul li {
+#grass li,
+#grass ul,
+#grass ul li {
+  background-color: var(--victoria);
   list-style: outside none none !important;
   font-family: "Sourcecode", monospace;
   font-size: 20px;
@@ -199,4 +201,9 @@ sux {
 .beetle {
   font-size: 15pt;
   font-family: "Sourcecode", monospace;
+}
+a.juice:hover {
+  color: var(--victoria);
+  background-color: #222;
+  text-decoration: none;
 }
