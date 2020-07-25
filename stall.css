@@ -180,6 +180,7 @@ sux {
   width: auto;
   font-family: "Sourcecode", monospace;
   font-size: 20px;
+  background-color: var(--victoria);
 }
 .lilyofthevalley {
   font-family: "Sourcecode", monospace;
@@ -189,7 +190,6 @@ sux {
 #grass li,
 #grass ul,
 #grass ul li {
-  background-color: var(--victoria);
   list-style: outside none none !important;
   font-family: "Sourcecode", monospace;
   font-size: 20px;
