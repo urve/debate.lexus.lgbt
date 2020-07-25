@@ -1,5 +1,5 @@
 :root {
-  --bgc: #d0e2ff;
+  --lexus: #d0e2ff;
   --victoria: whitesmoke;
 }
 @font-face {
@@ -23,9 +23,9 @@ body {
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
   margin: 0px;
-  background-color: var(--bgc);
+  background-color: var(--lexus);
 }
-code {
+petal {
   font-family: "Sourcecode", monospace;
   background-color: lightgray;
 }
@@ -33,11 +33,11 @@ a {
   color: #222;
 }
 a:hover {
-  color: var(--bgc);
+  color: var(--lexus);
   background-color: #222;
   text-decoration: none;
 }
-#wrap {
+#monarch {
   width: 100%;
   max-width: 1080px;
   margin: auto;
@@ -45,98 +45,13 @@ a:hover {
   padding: 0px 1rem;
   box-sizing: border-box;
 }
-#content {
+#pollen {
   padding: calc(100px + 1rem) 1rem 2rem 2rem;
   color: #222;
   font-size: 1.8rem;
   line-height: 1.6;
   opacity: 1;
   transition: opacity 0.5s;
-}
-.right {
-  text-align: right;
-}
-#contentsmall {
-  padding: calc(100px + 1rem) 1rem 2rem 2rem;
-  color: #222;
-  font-size: 1.6rem;
-  line-height: 1.4;
-  opacity: 1;
-  transition: opacity 0.5s;
-  font-family: "Quicksand", sans-serif; /* change to sans-serif, looks cleaner */
-}
-span.wave {
-  animation-name: wave-animation;
-  animation-duration: 2.5s;
-  animation-iteration-count: infinite;
-  transform-origin: 70% 70%;
-  display: inline-block;
-}
-@keyframes wave-animation {
-  0% {
-    transform: rotate(0deg);
-  }
-  10% {
-    transform: rotate(-10deg);
-  }
-  20% {
-    transform: rotate(12deg);
-  }
-  30% {
-    transform: rotate(-10deg);
-  }
-  40% {
-    transform: rotate(9deg);
-  }
-  50% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(0deg);
-  }
-}
-.inheritall {
-  all: inherit;
-}
-.centering {
-  text-align: center;
-  font-family: "Quicksand", sans-serif;
-}
-.larger {
-  font-size: larger;
-}
-.quicksand {
-  font-family: "Quicksand", sans-serif;
-}
-.garamond {
-  font-family: "Garamond", serif;
-}
-div#banner {
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-color: #000000;
-  width: 100%;
-}
-div#banner-content {
-  margin: 0 auto;
-  padding: 10px;
-  color: white;
-  text-align: center;
-  font-family: "Quicksand", sans-serif;
-  font-size: 1.4rem;
-}
-.blob {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 50vmax;
-  z-index: -1;
-  animation: move 10s ease-in-out infinite;
-  transform-origin: 50% 50%;
-  -moz-user-select: none;
-  -webkit-user-select: none;
-  user-select: none;
 }
 @keyframes move {
   0% {
@@ -158,17 +73,45 @@ div#banner-content {
     transform: scale(1) translate(10px, -30px);
   }
 }
+div#honeybee {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #000000;
+  width: 100%;
+}
+div#honeycomb {
+  margin: 0 auto;
+  padding: 10px;
+  color: white;
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+  font-size: 1.4rem;
+}
+.schurevich {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 50vmax;
+  z-index: -1;
+  animation: move 10s ease-in-out infinite;
+  transform-origin: 50% 50%;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
 pre {
+  margin: 1em 0;
   font-family: "Sourcecode", monospace;
   font-size: 15pt;
 }
-.description {
+.thorn {
   font-size: 15pt;
 }
-sux {
+raindrop {
   font-family: "Sourcecode", monospace;
 }
-.mono {
+.snowdrop {
   font-family: "Sourcecode", monospace;
 }
 #grass {
