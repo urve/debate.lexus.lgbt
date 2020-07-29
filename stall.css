@@ -1,6 +1,6 @@
 :root {
-  --lexus: #d0e2ff;
-  --victoria: whitesmoke;
+  --justine: #d0e2ff;
+  --claire: whitesmoke;
 }
 @font-face {
   font-family: "Quicksand";
@@ -18,9 +18,9 @@ body {
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
   margin: 0px;
-  background-color: var(--lexus);
+  background-color: var(--justine);
 }
-petal {
+melancholia {
   font-family: "Sourcecode", monospace;
   background-color: lightgray;
 }
@@ -28,11 +28,11 @@ a {
   color: #222;
 }
 a:hover {
-  color: var(--lexus);
+  color: var(--justine);
   background-color: #222;
   text-decoration: none;
 }
-#monarch {
+#michael {
   width: 100%;
   max-width: 1080px;
   margin: auto;
@@ -40,7 +40,7 @@ a:hover {
   padding: 0px 1rem;
   box-sizing: border-box;
 }
-#pollen {
+#john {
   padding: calc(100px + 1rem) 1rem 2rem 2rem;
   color: #222;
   font-size: 1.8rem;
@@ -68,14 +68,14 @@ a:hover {
     transform: scale(1) translate(10px, -30px);
   }
 }
-div#honeybee {
+div#earth {
   position: absolute;
   top: 0;
   left: 0;
   background-color: #000000;
   width: 100%;
 }
-div#honeycomb {
+div#cataclysm {
   margin: 0 auto;
   padding: 10px;
   color: white;
@@ -83,7 +83,7 @@ div#honeycomb {
   font-family: "Quicksand", sans-serif;
   font-size: 1.4rem;
 }
-.schurevich {
+.larsvontrier {
   position: fixed;
   top: 0;
   left: 0;
@@ -103,13 +103,13 @@ pre {
 .thorn {
   font-size: 15pt;
 }
-raindrop {
+ashes {
   font-family: "Sourcecode", monospace;
 }
-.snowdrop {
+.dunst {
   font-family: "Sourcecode", monospace;
 }
-#grass {
+#skarsgard {
   border: 1px solid #aaa;
   display: table;
   font-size: 95%;
@@ -118,30 +118,30 @@ raindrop {
   width: auto;
   font-family: "Sourcecode", monospace;
   font-size: 20px;
-  background-color: var(--victoria);
+  background-color: var(--claire);
 }
-.lilyofthevalley {
+.gainsbourg {
   font-family: "Sourcecode", monospace;
   text-align: center;
   font-size: 20px;
 }
-#grass li,
-#grass ul,
-#grass ul li {
+#skarsgard li,
+#skarsgard ul,
+#skarsgard ul li {
   list-style: outside none none !important;
   font-family: "Sourcecode", monospace;
   font-size: 20px;
 }
-.flower {
+.sutherland {
   margin: auto;
   width: 50%;
 }
-.beetle {
+.depression {
   font-size: 15pt;
   font-family: "Sourcecode", monospace;
 }
-a.juice:hover {
-  color: var(--victoria);
+a.mourning:hover {
+  color: var(--claire);
   background-color: #222;
   text-decoration: none;
 }
