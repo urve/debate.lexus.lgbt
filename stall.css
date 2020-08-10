@@ -161,3 +161,22 @@ a.white:hover {
   background-color: white;
   text-decoration: none;
 }
+
+div#banner2 {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  background-color: #000000;
+  width: 100%;
+  font-family: "Quicksand", sans-serif;
+  z-index: 10;
+}
+div#banner-content2 {
+  margin: 0 auto;
+  padding: 10px;
+  color: white;
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+  font-size: 1.4rem;
+  z-index: 10;
+}
